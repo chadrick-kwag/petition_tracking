@@ -22,9 +22,3 @@ argsb = {'start_urls':surls}
 
 process.crawl(petitionspider.PetitionCountSpider,start_urls=surls,collection=cllct, petition_number = 201953)
 process.start()
-
-
-
-
-
-

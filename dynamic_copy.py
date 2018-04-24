@@ -36,7 +36,6 @@ crawler = Crawler(petitionspider.PetitionCountSpider,settings)
 # crawler.crawl(petitionspider.PetitionCountSpider,start_urls=surls,collection=cllct, petition_number = 205890)
 crawler.crawl(start_urls=surls,collection=cllct, petition_number = 202136)
 
-# process.crawl(petitionspider.PetitionCountSpider,start_urls=surls,collection=cllct, petition_number = 205890)
 # process.start()
 
 ll = reactor.run()
